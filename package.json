@@ -4,7 +4,7 @@
   "description": "Homework 2 for CCSU CS 416 by Professor Yusuf Albayram: Create a site with Bootstrap 5 and SCSS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "sass scss:assets/css"
   },
   "repository": {
     "type": "git",

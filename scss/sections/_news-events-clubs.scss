@@ -1,0 +1,13 @@
+@use '../custom' as *;
+
+@media(min-width: 1200px) {
+  .news-events-clubs {
+    .card {
+      .row {
+        .card {
+          width: 33%;
+        }
+      }
+    }
+  }
+}

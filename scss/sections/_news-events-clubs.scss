@@ -1,7 +1,8 @@
 @use '../custom' as *;
 
+// xl === 1200px
 @media(min-width: 1200px) {
-  .news-events-clubs {
+  #news-events-clubs {
     .card {
       .row {
         .card {

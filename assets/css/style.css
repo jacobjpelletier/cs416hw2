@@ -22752,7 +22752,7 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 1200px) {
-  .news-events-clubs .card .row .card {
+  #news-events-clubs .card .row .card {
     width: 33%;
   }
 }
@@ -34390,10 +34390,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.intro h1 {
+#intro h1 {
   color: #495057;
 }
-.intro p {
+#intro p {
   color: #212529;
 }
 

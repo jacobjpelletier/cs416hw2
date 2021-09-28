@@ -3,12 +3,14 @@
 
 // IMPORT COMPONENTS
 // @import 'components';
+@import 'components/cs-card-info';
 
 // IMPORT SECTIONS
 @import 'sections/news-events-clubs';
-@import 'sections/cybersecurity';
 @import 'sections/footer';
 @import 'sections/intro';
+@import 'sections/cybersecurity';
 @import 'sections/masters';
 @import 'sections/scholarships';
+/// NOTE: KEEP NAVBAR SECTION LAST!
 @import 'sections/navbar';

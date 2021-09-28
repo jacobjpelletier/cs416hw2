@@ -1,0 +1,6 @@
+@use '../custom' as *;
+
+.list-group-item {
+  // ensure text color isn't overridden with later imports
+  color: $secondary !important;
+}

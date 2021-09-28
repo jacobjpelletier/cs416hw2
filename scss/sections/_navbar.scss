@@ -2,15 +2,15 @@
 
 .navbar {
   padding: 0;
+  font-size: 1.25em;
 }
 
 .navbar-dark {
   background: $dark;
   .navbar-nav {
-    padding-left: 1em;
+
     .nav-link {
       color: $secondary;
-
       &:hover,
       &:focus {
         color: #ffffff;
@@ -29,7 +29,6 @@
 }
 
 .navbar-brand {
-  padding-top: 1em;
   color: white;
   justify-content: flex-start;
 }

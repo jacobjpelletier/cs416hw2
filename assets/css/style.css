@@ -46065,10 +46065,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.contact-title {
-  font-size: 3.5em;
-}
-
 .bi-telephone-fill {
   color: #198754;
 }
@@ -57719,13 +57715,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#intro h1 {
-  color: #495057;
-}
-#intro p {
-  color: #212529;
-}
-
 body {
   background-color: #fafafa;
 }
@@ -92665,7 +92654,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 991px) {
   #scholarships {
     display: none;
   }
@@ -104314,7 +104303,6 @@ textarea.form-control-lg {
 }
 .navbar {
   padding: 0;
-  font-size: 1.25em;
 }
 
 .navbar-dark {

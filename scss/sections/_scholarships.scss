@@ -1,7 +1,7 @@
 @use '../custom' as *;
 
-// xl === 1200px
-@media(max-width: 1200px) {
+// show on medium and larger
+@media(max-width: 991px) {
   #scholarships {
     display: none;
   }

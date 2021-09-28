@@ -6,13 +6,26 @@
 <pre>
 cs426hw2/
 ├── index.html
-├── images/
-│   └── 
+├── assets/
+│   └── css/
+│       └── style.css
+│   └── images/
+│       └── . . .
+├── node_modules
+│       └── . . .
 ├── scss
-│   └── custom.scss
-└── bootstrap/
-    ├── js
-    └── scss
+│   └── components/
+│   └── sections/
+│   └── _custom.scss
+│   └── style.scss
+└── HW2 Self Evaluation Form.docx
+└── hw2-large.png
+└── hw2-medium.png
+└── hw2-small.png
+└── index.html
+└── package.json
+└── package-lock.json
+└── README.md
 </pre>
 
 ## Dependencies:
@@ -38,8 +51,12 @@ Install with ```npm -i 'dependency'```
    - to run command, enter ```npm run compile sass``` in the terminal
    - you will see a source map file in assets/css, this is what tells the browser how to comsume CSS and how that CSS corresponds to SASS which generated it.
 4. Create a custom sass file 
-   - **Because it is not good practice to override bootstrap.scss files**
+   - **Because it is not good practice to directly override bootstrap.scss files**
    - The custom sass file should be pre-pended with an underscore to indicate this file is a partial
    - a partial file will not be compiled into a css stylesheet. 
    - import standard bootstrap.scss file with ```@import"../node_modules/bootstrap/scss/bootstrap.scss";``` at the top of _custom.scss
    - now import _custom.scss in style.scss with ```@use "custom";```
+   
+## To Run Projet
+1. clone or download code
+2. run  ```npm run compile sass``` from project directory

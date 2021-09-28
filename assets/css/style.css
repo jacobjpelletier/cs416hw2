@@ -1,6 +1,14 @@
 @charset "UTF-8";
+body {
+  background-color: #fafafa;
+}
+
 section {
   padding-top: 2rem;
+}
+
+.card-body {
+  color: white;
 }
 
 /*!
@@ -11117,8 +11125,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-color: #fafafa;
+}
+
 section {
   padding-top: 2rem;
+}
+
+.card-body {
+  color: white;
 }
 
 /*!
@@ -22760,8 +22776,16 @@ textarea.form-control-lg {
     text-align: center;
   }
 }
+body {
+  background-color: #fafafa;
+}
+
 section {
   padding-top: 2rem;
+}
+
+.card-body {
+  color: white;
 }
 
 /*!
@@ -34399,8 +34423,16 @@ textarea.form-control-lg {
     width: 33%;
   }
 }
+body {
+  background-color: #fafafa;
+}
+
 section {
   padding-top: 2rem;
+}
+
+.card-body {
+  color: white;
 }
 
 /*!
@@ -46045,8 +46077,16 @@ textarea.form-control-lg {
   color: #dc3545;
 }
 
+body {
+  background-color: #fafafa;
+}
+
 section {
   padding-top: 2rem;
+}
+
+.card-body {
+  color: white;
 }
 
 /*!
@@ -57686,8 +57726,16 @@ textarea.form-control-lg {
   color: #212529;
 }
 
+body {
+  background-color: #fafafa;
+}
+
 section {
   padding-top: 2rem;
+}
+
+.card-body {
+  color: white;
 }
 
 /*!
@@ -69320,8 +69368,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-color: #fafafa;
+}
+
 section {
   padding-top: 2rem;
+}
+
+.card-body {
+  color: white;
 }
 
 /*!
@@ -80967,8 +81023,16 @@ textarea.form-control-lg {
     display: none;
   }
 }
+body {
+  background-color: #fafafa;
+}
+
 section {
   padding-top: 2rem;
+}
+
+.card-body {
+  color: white;
 }
 
 /*!
@@ -92606,8 +92670,16 @@ textarea.form-control-lg {
     display: none;
   }
 }
+body {
+  background-color: #fafafa;
+}
+
 section {
   padding-top: 2rem;
+}
+
+.card-body {
+  color: white;
 }
 
 /*!

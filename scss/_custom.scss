@@ -2,8 +2,16 @@
 
 $spacer: 2.5rem;
 
+body {
+  background-color: #fafafa;
+}
+
 section {
   padding-top: 2rem;
+}
+
+.card-body {
+  color: white;
 }
 
 // DEFAULTS HERE

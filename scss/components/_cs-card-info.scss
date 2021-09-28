@@ -4,3 +4,9 @@
   // ensure text color isn't overridden with later imports
   color: $secondary !important;
 }
+
+@media(max-width: 1200px) {
+  .card-title {
+    text-align: center;
+  }
+}

@@ -1,2 +1,14 @@
 @use '../custom' as *;
 
+.large-screen-img {
+  display: none;
+}
+
+@media(min-width: 1200px) {
+  .large-screen-img {
+    display: block;
+  }
+  .small-screen-img {
+    display: none;
+  }
+}

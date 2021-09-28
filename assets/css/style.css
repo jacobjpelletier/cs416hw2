@@ -22755,6 +22755,11 @@ textarea.form-control-lg {
   color: #6c757d !important;
 }
 
+@media (max-width: 1200px) {
+  .card-title {
+    text-align: center;
+  }
+}
 section {
   padding-top: 2rem;
 }
@@ -80949,6 +80954,19 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.large-screen-img {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .large-screen-img {
+    display: block;
+  }
+
+  .small-screen-img {
+    display: none;
+  }
+}
 section {
   padding-top: 2rem;
 }
@@ -92581,6 +92599,11 @@ textarea.form-control-lg {
 
   .d-print-none {
     display: none !important;
+  }
+}
+@media (max-width: 1200px) {
+  #scholarships {
+    display: none;
   }
 }
 section {

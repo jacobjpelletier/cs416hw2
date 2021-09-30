@@ -56,7 +56,7 @@ Install with ```npm -i 'dependency'```
    - a partial file will not be compiled into a css stylesheet. 
    - import standard bootstrap.scss file with ```@import"../node_modules/bootstrap/scss/bootstrap.scss";``` at the top of _custom.scss
    - now import _custom.scss in style.scss with ```@use "custom";```
-   
+5. Create section and compenent scss files   
 ## To Run Projet
 1. clone or download code
 2. run  ```npm run compile:sass``` from project directory to compile scss to css

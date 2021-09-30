@@ -48,7 +48,7 @@ Install with ```npm -i 'dependency'```
    - so in this case "compile:sass": "sass --watch scss:assets/css"
    - this command will take sass files and compile them into assets/css
    - the watch flag makes changes to css file automatically  
-   - to run command, enter ```npm run compile sass``` in the terminal
+   - to run command, enter ```npm run compile:sass``` in the terminal
    - you will see a source map file in assets/css, this is what tells the browser how to comsume CSS and how that CSS corresponds to SASS which generated it.
 4. Create a custom sass file 
    - **Because it is not good practice to directly override bootstrap.scss files**
@@ -59,4 +59,4 @@ Install with ```npm -i 'dependency'```
    
 ## To Run Projet
 1. clone or download code
-2. run  ```npm run compile sass``` from project directory
+2. run  ```npm run compile:sass``` from project directory

@@ -59,4 +59,5 @@ Install with ```npm -i 'dependency'```
    
 ## To Run Projet
 1. clone or download code
-2. run  ```npm run compile:sass``` from project directory
+2. run  ```npm run compile:sass``` from project directory to compile scss to css
+3. open index.html in browser to see the results!
